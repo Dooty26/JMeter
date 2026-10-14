@@ -267,11 +267,3 @@ jmeter -t Web_Performance_Test_VnExpress.jmx
 
 ---
 
-## 🏆 7. KẾT LUẬN
-
-Bài thực hành số 8 đã hoàn thành đầy đủ và vượt mức toàn bộ yêu cầu đặt ra:
-1. Đã cài đặt, làm chủ và thực thi kiểm thử hiệu năng bằng công cụ **Apache JMeter 5.6.3**.
-2. Đã xây dựng các Test Plan hoàn chỉnh, khoa học mô phỏng đồng thời từ **100 đến 1,000 người dùng thực tế** trên cả hệ thống Web trường học, Báo điện tử cấp quốc gia (VnExpress), và hệ thống RESTful API.
-3. Đã xuất các file đo lường thực tế (`.jtl`), tạo dashboard HTML trực quan (`report_web`, `report_vnexpress`, `report_api`), và xây dựng bộ 10 ảnh minh họa đầy đủ tại thư mục `images/`.
-4. Đã phân tích bản chất kỹ thuật của các hiện tượng nghẽn mạng, cơ chế hoạt động của Web Firewall, vai trò của CDN Edge Caching và đề xuất giải pháp tối ưu hệ thống chuẩn xác.
-5. Đã tạo GitHub repository cá nhân, đẩy toàn bộ mã nguồn kiểm thử và cập nhật link nộp bài chính xác trên hệ thống Google Sheet của lớp học phần.
