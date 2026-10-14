@@ -9,7 +9,6 @@
 - **Mã số sinh viên (MSSV):** 23010046
 - **Email:** 23010046@st.phenikaa-uni.edu.vn
 - **Học phần:** Đảm bảo và Kiểm định Chất lượng Phần mềm (COUR001.LT2)
-- **Hệ thống nộp bài (Google Sheet):** Dòng 10 - STT 2 (Cột `JMeter`)
 - **GitHub Repository:** [https://github.com/Dooty26/JMeter](https://github.com/Dooty26/JMeter)
 - **Môi trường thực nghiệm:**
   - Phiên bản công cụ: **Apache JMeter 5.6.3**
