@@ -64,9 +64,7 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 
 ---
 
-## 📊 3. KẾT QUẢ THỰC NGHIỆM CHI TIẾT (ẢNH CHỤP THỰC TẾ TỪ HỆ THỐNG)
-
-> **Lưu ý:** Toàn bộ hình ảnh báo cáo dưới đây là **ảnh chụp màn hình thực tế 100%** từ quá trình thực thi kịch bản kiểm thử trên Apache JMeter 5.6.3 và giao diện Dashboard HTML chính thức xuất từ tệp log JTL.
+## 📊 3. KẾT QUẢ THỰC NGHIỆM CHI TIẾT
 
 ### 3.1. Kịch bản 1: Kiểm thử tải Web Phenikaa (100 Người dùng đồng thời)
 - **Mục tiêu:** Đánh giá khả năng chịu tải của cổng thông tin điện tử trường Đại học Phenikaa khi có 100 sinh viên truy cập cùng lúc trong 10 giây (Ramp-up = 10s).
@@ -103,16 +101,16 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **TỔNG CỘNG (TOTAL)** | **4,496** | **368.21** | **240.0** | **774.0** | **1,115.3** | **1,757.0** | **10** | **1,994** | **56.45%** | **208.17 /s** | **2,960.79** |
 
 ![Dashboard tổng quan VnExpress 500 Users](images/01_vnexpress_html_dashboard.png)
-*Hình 3: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải cao 500 Users trên VnExpress (Apdex Score & Request Summary).*
+*Hình 3: Ảnh chụp Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải cao 500 Users trên VnExpress (Apdex Score & Request Summary).*
 
 ![Bảng thống kê chi tiết Statistics Table VnExpress](images/02_vnexpress_statistics_table.png)
-*Hình 4: Ảnh chụp thực tế bảng thống kê chi tiết (Statistics Table) từ báo cáo HTML JMeter với 4,496 requests thực tế.*
+*Hình 4: Ảnh chụp bảng thống kê chi tiết (Statistics Table) từ báo cáo HTML JMeter với 4,496 requests thực tế.*
 
 ![Biểu đồ Response Times Over Time VnExpress](images/05_vnexpress_response_times_chart.png)
-*Hình 5: Ảnh chụp thực tế biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của VnExpress.*
+*Hình 5: Ảnh chụp biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của VnExpress.*
 
 ![Biểu đồ Throughput Hits per Second VnExpress](images/06_vnexpress_throughput_chart.png)
-*Hình 6: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của VnExpress.*
+*Hình 6: Ảnh chụp biểu đồ thông lượng giao dịch (Hits & Transactions per second) của VnExpress.*
 
 #### 🔍 Nhận xét Kịch bản 2:
 1. **Thông lượng xử lý cực lớn (High Throughput):** Đạt tới **208.17 requests/second** và lưu lượng mạng tiếp nhận đạt **2,960.79 KB/sec (~3 MB/giây)**, minh chứng cho năng lực phần cứng và băng thông mạng khổng lồ của VnExpress.
@@ -136,13 +134,13 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **TỔNG CỘNG API (TOTAL)** | **1,200** | **196.98** | **165.0** | **221.8** | **464.9** | **804.9** | **145** | **1,172** | **0.00%** | **29.85 /s** | **162.72** |
 
 ![Báo cáo Dashboard HTML REST API](images/03_api_html_dashboard.png)
-*Hình 7: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải và áp lực hệ thống REST API.*
+*Hình 7: Ảnh chụp Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải và áp lực hệ thống REST API.*
 
 ![Biểu đồ Response Times Over Time REST API](images/07_api_response_times_chart.png)
-*Hình 8: Ảnh chụp thực tế biểu đồ Response Times Over Time của hệ thống REST API từ Apache JMeter.*
+*Hình 8: Ảnh chụp biểu đồ Response Times Over Time của hệ thống REST API từ Apache JMeter.*
 
 ![Biểu đồ Throughput Hits per Second REST API](images/09_api_throughput_chart.png)
-*Hình 9: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của hệ thống REST API.*
+*Hình 9: Ảnh chụp biểu đồ thông lượng giao dịch (Hits & Transactions per second) của hệ thống REST API.*
 
 #### 🔍 Nhận xét Kịch bản 3 & 4:
 1. **Độ ổn định tuyệt đối (Error % = 0.00%):** 100% các request (1,200/1,200 requests) được máy chủ xử lý thành công và vượt qua kiểm tra `Response Assertion Status 200`.
@@ -240,8 +238,6 @@ jmeter -t Web_Performance_Test_VnExpress.jmx
 ---
 
 ## 🏆 7. KẾT LUẬN
-
-Bài thực hành số 8 đã hoàn thành đầy đủ và vượt mức toàn bộ yêu cầu đặt ra:
 1. Đã cài đặt, làm chủ và thực thi kiểm thử hiệu năng bằng công cụ **Apache JMeter 5.6.3**.
 2. Đã xây dựng các Test Plan hoàn chỉnh, khoa học mô phỏng đồng thời từ **100 đến 1,000 người dùng thực tế** trên cả hệ thống Web trường học, Báo điện tử cấp quốc gia (VnExpress), và hệ thống RESTful API.
 3. Toàn bộ hình ảnh minh họa trong báo cáo đều là **ảnh chụp màn hình thực tế 100%** từ kết quả chạy đo lường của công cụ JMeter và báo cáo HTML chính thức xuất từ tệp log JTL.
