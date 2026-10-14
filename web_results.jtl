@@ -1,0 +1,1221 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791971532430,3247,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-10,text,true,,1852322,345,42,42,https://phenikaa-uni.edu.vn/vi,3075,0,395
+1791971532734,3187,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-13,text,true,,1852322,345,44,44,https://phenikaa-uni.edu.vn/vi,2998,0,90
+1791971531741,4345,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-2,text,true,,1852322,345,46,46,https://phenikaa-uni.edu.vn/vi,4114,0,1083
+1791971532029,4139,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-6,text,true,,1852322,345,47,47,https://phenikaa-uni.edu.vn/vi,3908,0,796
+1791971531931,4369,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-5,text,true,,1852322,345,48,48,https://phenikaa-uni.edu.vn/vi,4150,0,895
+1791971531741,4662,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-3,text,true,,1852322,345,49,49,https://phenikaa-uni.edu.vn/vi,4425,0,1083
+1791971532527,3910,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-11,text,true,,1852322,345,50,50,https://phenikaa-uni.edu.vn/vi,3822,0,298
+1791971532328,4198,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-9,text,true,,1852322,345,50,50,https://phenikaa-uni.edu.vn/vi,3977,0,496
+1791971532229,4516,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-8,text,true,,1852322,345,53,53,https://phenikaa-uni.edu.vn/vi,4305,0,595
+1791971531833,5122,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-4,text,true,,1852322,345,55,55,https://phenikaa-uni.edu.vn/vi,4811,0,993
+1791971531739,5283,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-1,text,true,,1852322,345,55,55,https://phenikaa-uni.edu.vn/vi,5026,0,1083
+1791971532828,4335,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-14,text,true,,1852322,345,57,57,https://phenikaa-uni.edu.vn/vi,4116,0,119
+1791971532627,4679,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-12,text,true,,1852322,345,58,58,https://phenikaa-uni.edu.vn/vi,4459,0,197
+1791971532130,5312,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-7,text,true,,1852322,345,60,60,https://phenikaa-uni.edu.vn/vi,5083,0,695
+1791971532929,4656,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-15,text,true,,1852322,345,61,61,https://phenikaa-uni.edu.vn/vi,4435,0,39
+1791971533027,5228,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-16,text,true,,1852322,345,68,68,https://phenikaa-uni.edu.vn/vi,5030,0,88
+1791971533128,5914,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-17,text,true,,1852322,345,76,76,https://phenikaa-uni.edu.vn/vi,5826,0,117
+1791971533234,6578,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-18,text,true,,1852322,345,83,83,https://phenikaa-uni.edu.vn/vi,6369,0,25
+1791971533326,7097,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-19,text,true,,1852322,345,89,89,https://phenikaa-uni.edu.vn/vi,6886,0,67
+1791971533427,7952,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-20,text,true,,1852322,345,99,99,https://phenikaa-uni.edu.vn/vi,7745,0,44
+1791971533527,8657,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-21,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,8216,0,67
+1791971533635,8698,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-22,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,8349,0,38
+1791971533732,8736,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-23,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,8524,0,50
+1791971533835,9060,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-24,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,8861,0,52
+1791971533929,9108,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-25,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,8908,0,72
+1791971534033,9429,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-26,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,9228,0,53
+1791971534141,9523,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-27,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,9314,0,69
+1791971534234,9645,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-28,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,9442,0,51
+1791971534342,9683,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-29,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,9481,0,16
+1791971534437,9999,HTTP Request - Trang Chu Phenikaa,200,OK,Thread Group - 100 Users 1-30,text,true,,1852322,345,100,100,https://phenikaa-uni.edu.vn/vi,9809,0,58
+1791971534532,10089,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,100,100,https://phenikaa-uni.edu.vn/vi,0,0,36
+1791971534636,10067,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10066,0,56
+1791971534742,10031,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,100,100,https://phenikaa-uni.edu.vn/vi,0,0,21
+1791971534836,10033,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10033,0,22
+1791971534929,10064,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10064,0,55
+1791971535035,10042,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10042,0,29
+1791971535128,10037,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10037,0,27
+1791971535237,10038,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10038,0,28
+1791971535329,10038,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10038,0,28
+1791971535434,10041,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10041,0,30
+1791971535543,10036,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10036,0,24
+1791971535681,10016,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,100,100,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971535633,10068,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,100,100,https://phenikaa-uni.edu.vn/vi,10068,0,61
+1791971535743,10076,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,99,99,https://phenikaa-uni.edu.vn/vi,10075,0,67
+1791971535831,10086,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,99,99,https://phenikaa-uni.edu.vn/vi,10086,0,78
+1791971535922,10005,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,99,99,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971535936,10094,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,98,98,https://phenikaa-uni.edu.vn/vi,10094,0,20
+1791971536087,10009,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,98,98,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536030,10139,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,97,97,https://phenikaa-uni.edu.vn/vi,0,0,29
+1791971536138,10038,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,97,97,https://phenikaa-uni.edu.vn/vi,0,0,20
+1791971536169,10011,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,97,97,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536237,10028,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,96,96,https://phenikaa-uni.edu.vn/vi,10028,0,16
+1791971536301,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,96,96,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536343,10038,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,95,95,https://phenikaa-uni.edu.vn/vi,10038,0,28
+1791971536405,10008,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,95,95,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10008,0,0
+1791971536438,10009,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,94,94,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536429,10092,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,93,93,https://phenikaa-uni.edu.vn/vi,10092,0,82
+1791971536527,10012,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,93,93,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536537,10082,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,92,92,https://phenikaa-uni.edu.vn/vi,10082,0,73
+1791971536628,10095,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,92,92,https://phenikaa-uni.edu.vn/vi,0,0,85
+1791971536746,10008,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,92,92,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536736,10033,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,91,91,https://phenikaa-uni.edu.vn/vi,10033,0,24
+1791971536826,10034,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,91,91,https://phenikaa-uni.edu.vn/vi,0,0,25
+1791971536955,10014,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,91,91,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971536932,10100,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,90,90,https://phenikaa-uni.edu.vn/vi,10100,0,27
+1791971537025,10011,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,90,90,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971537039,10028,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,89,89,https://phenikaa-uni.edu.vn/vi,10028,0,19
+1791971537164,10017,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,89,89,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971537132,10058,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,88,88,https://phenikaa-uni.edu.vn/vi,10058,0,50
+1791971537240,10093,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,88,88,https://phenikaa-uni.edu.vn/vi,10093,0,78
+1791971537308,10024,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,88,88,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971537330,10037,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,87,87,https://phenikaa-uni.edu.vn/vi,0,0,25
+1791971537442,10016,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,87,87,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971537436,10049,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,86,86,https://phenikaa-uni.edu.vn/vi,0,0,39
+1791971537528,10040,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,86,86,https://phenikaa-uni.edu.vn/vi,10040,0,29
+1791971537585,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,86,86,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971537643,10040,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10040,0,31
+1791971537730,10027,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10027,0,17
+1791971537837,10036,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,85,85,https://phenikaa-uni.edu.vn/vi,0,0,27
+1791971537930,10027,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10027,0,18
+1791971538037,10030,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10029,0,20
+1791971538127,10029,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10029,0,19
+1791971538234,10031,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,85,85,https://phenikaa-uni.edu.vn/vi,10031,0,19
+1791971538255,10011,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,85,85,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10011,0,0
+1791971538328,10038,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,84,84,https://phenikaa-uni.edu.vn/vi,0,0,26
+1791971538437,10035,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,84,84,https://phenikaa-uni.edu.vn/vi,0,0,21
+1791971538530,10032,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,84,84,https://phenikaa-uni.edu.vn/vi,10032,0,21
+1791971538637,10036,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,84,84,https://phenikaa-uni.edu.vn/vi,0,0,26
+1791971538729,10028,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,84,84,https://phenikaa-uni.edu.vn/vi,10028,0,18
+1791971538838,10131,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,84,84,https://phenikaa-uni.edu.vn/vi,10131,0,121
+1791971538929,10042,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,84,84,https://phenikaa-uni.edu.vn/vi,10042,0,34
+1791971539042,10005,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,84,84,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971548970,86,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,83,83,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,86,0,0
+1791971548972,86,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,82,82,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,86,0,0
+1791971539038,10035,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,81,81,https://phenikaa-uni.edu.vn/vi,10035,0,23
+1791971539131,10029,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,81,81,https://phenikaa-uni.edu.vn/vi,10029,0,18
+1791971539238,10052,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,81,81,https://phenikaa-uni.edu.vn/vi,0,0,43
+1791971549074,227,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,81,81,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,227,0,0
+1791971539331,10051,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,80,80,https://phenikaa-uni.edu.vn/vi,0,0,43
+1791971549161,305,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,80,80,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,305,0,0
+1791971539437,10036,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,79,79,https://phenikaa-uni.edu.vn/vi,0,0,27
+1791971549291,186,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,79,79,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,186,0,16
+1791971549383,115,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,78,78,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,115,0,20
+1791971549474,100,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,77,77,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,100,0,26
+1791971539530,10082,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,76,76,https://phenikaa-uni.edu.vn/vi,0,0,72
+1791971539640,10044,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,76,76,https://phenikaa-uni.edu.vn/vi,10044,0,35
+1791971549613,91,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,76,76,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,91,0,15
+1791971539729,10027,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,75,75,https://phenikaa-uni.edu.vn/vi,10027,0,18
+1791971539812,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,75,75,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10010,0,0
+1791971539836,10029,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,74,74,https://phenikaa-uni.edu.vn/vi,10029,0,20
+1791971549685,239,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,74,74,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,239,0,0
+1791971539929,10038,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,73,73,https://phenikaa-uni.edu.vn/vi,0,0,29
+1791971549757,296,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,73,73,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,296,0,0
+1791971549866,187,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,73,73,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,187,0,0
+1791971540036,10033,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,71,71,https://phenikaa-uni.edu.vn/vi,10033,0,23
+1791971549968,123,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,71,71,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,123,0,19
+1791971550069,57,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,70,70,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,57,0,0
+1791971540128,10045,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,69,69,https://phenikaa-uni.edu.vn/vi,10045,0,36
+1791971540236,10036,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,69,69,https://phenikaa-uni.edu.vn/vi,10036,0,24
+1791971540326,10038,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,69,69,https://phenikaa-uni.edu.vn/vi,10038,0,25
+1791971540423,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,69,69,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971540434,10029,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,68,68,https://phenikaa-uni.edu.vn/vi,10029,0,21
+1791971540541,10029,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,68,68,https://phenikaa-uni.edu.vn/vi,0,0,19
+1791971550173,407,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,68,68,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,407,0,0
+1791971550273,341,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,67,67,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,341,0,0
+1791971550364,251,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,67,67,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,251,0,0
+1791971540633,10042,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,65,65,https://phenikaa-uni.edu.vn/vi,10042,0,28
+1791971540737,10048,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,65,65,https://phenikaa-uni.edu.vn/vi,0,0,38
+1791971540832,10026,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,65,65,https://phenikaa-uni.edu.vn/vi,10026,0,17
+1791971550464,456,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,65,65,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,456,0,0
+1791971550572,356,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,64,64,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,356,0,17
+1791971540940,10027,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,63,63,https://phenikaa-uni.edu.vn/vi,0,0,18
+1791971550676,382,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,63,63,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,381,0,0
+1791971550786,277,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,62,62,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,277,0,21
+1791971550859,209,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,61,61,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,209,0,0
+1791971550969,129,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,60,60,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,129,0,17
+1791971541037,10091,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,59,59,https://phenikaa-uni.edu.vn/vi,10091,0,81
+1791971541140,10036,HTTP Request - Trang Chu Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,345,59,59,https://phenikaa-uni.edu.vn/vi,10036,0,23
+1791971541231,10043,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,59,59,https://phenikaa-uni.edu.vn/vi,0,0,30
+1791971551129,148,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,59,59,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,148,0,0
+1791971541336,10032,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,58,58,https://phenikaa-uni.edu.vn/vi,0,0,22
+1791971541378,10006,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,58,58,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971551177,250,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,57,57,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,250,0,0
+1791971551276,165,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,56,56,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,165,0,19
+1791971551369,75,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,55,55,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,75,0,18
+1791971541430,10031,HTTP Request - Trang Chu Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,54,54,https://phenikaa-uni.edu.vn/vi,0,0,20
+1791971551463,337,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,54,54,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,337,0,16
+1791971542185,10020,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,53,53,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971542333,10009,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,52,52,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971542467,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,51,51,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10010,0,0
+1791971542895,10012,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,50,50,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10012,0,0
+1791971543037,10015,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,49,49,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971543462,10009,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,48,48,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971543664,10008,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,47,47,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971543879,10008,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,46,46,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971544026,10015,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,45,45,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971544436,10009,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,44,44,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10008,0,0
+1791971544623,10065,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,43,43,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,56
+1791971544703,10008,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,42,42,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10008,0,0
+1791971544773,10023,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,41,41,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,13
+1791971544871,10016,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,40,40,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971544993,10009,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,39,39,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10009,0,0
+1791971545078,10008,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,38,38,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971545166,10012,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,37,37,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971545275,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,36,36,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971545367,10009,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,35,35,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10009,0,0
+1791971545474,10012,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,34,34,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971545578,10012,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,33,33,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10012,0,0
+1791971545700,10009,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,32,32,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10009,0,0
+1791971545819,10008,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,31,31,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971545917,10011,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,30,30,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10011,0,0
+1791971546030,10011,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,29,29,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971546170,10034,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,28,28,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10034,0,25
+1791971546178,10037,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,27,27,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,26
+1791971546264,10013,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,26,26,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971546381,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,25,25,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10010,0,0
+1791971546521,10016,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,24,24,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971546619,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,23,23,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971546723,10028,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,22,22,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10028,0,17
+1791971546770,10011,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,21,21,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10011,0,0
+1791971546860,10026,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,20,20,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10026,0,16
+1791971547033,10011,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,19,19,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10011,0,0
+1791971547068,10007,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,18,18,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10007,0,0
+1791971547191,10011,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,17,17,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971547334,10009,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,16,16,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971547368,10034,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,15,15,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,23
+1791971547487,10028,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,14,14,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,17
+1791971547568,10009,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,13,13,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10009,0,0
+1791971547684,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,12,12,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10009,0,0
+1791971547758,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,11,11,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10010,0,0
+1791971547875,10026,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,10,10,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,16
+1791971547958,10008,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,9,9,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10008,0,0
+1791971548068,10013,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,8,8,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971548157,10013,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,7,7,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971548266,10033,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,6,6,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971548367,10026,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,5,5,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,17
+1791971548474,10028,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,4,4,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,17
+1791971548564,10010,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,3,3,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,0
+1791971548673,10025,HTTP Request - Tin Tuc Phenikaa,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group - 100 Users 1-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketTimeoutException]]]
+
+****** comparison: [[[200                                                    ]]]
+
+/",3184,0,2,2,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,0,0,16
+1791971548758,10010,HTTP Request - Tin Tuc Phenikaa,500,Internal Server Error,Thread Group - 100 Users 1-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",311,378,1,1,https://phenikaa-uni.edu.vn/vi/category/tin-tuc-su-kien/tin-tuc,10010,0,0

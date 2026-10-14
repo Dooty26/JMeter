@@ -1,0 +1,50 @@
+{
+  "HTTP Request - Trang Chu Phenikaa" : {
+    "transaction" : "HTTP Request - Trang Chu Phenikaa",
+    "sampleCount" : 100,
+    "errorCount" : 70,
+    "errorPct" : 70.0,
+    "meanResTime" : 8946.619999999999,
+    "medianResTime" : 10033.0,
+    "minResTime" : 3187.0,
+    "maxResTime" : 10139.0,
+    "pct1ResTime" : 10085.6,
+    "pct2ResTime" : 10093.95,
+    "pct3ResTime" : 10138.92,
+    "throughput" : 5.070479667376533,
+    "receivedKBytesPerSec" : 2755.9596457160783,
+    "sentKBytesPerSec" : 1.315403245740797
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 200,
+    "errorCount" : 170,
+    "errorPct" : 85.0,
+    "meanResTime" : 8158.044999999998,
+    "medianResTime" : 10012.0,
+    "minResTime" : 57.0,
+    "maxResTime" : 10139.0,
+    "pct1ResTime" : 10050.8,
+    "pct2ResTime" : 10085.8,
+    "pct3ResTime" : 10130.69,
+    "throughput" : 7.399459839431722,
+    "receivedKBytesPerSec" : 2017.1254861676348,
+    "sentKBytesPerSec" : 1.656315612397795
+  },
+  "HTTP Request - Tin Tuc Phenikaa" : {
+    "transaction" : "HTTP Request - Tin Tuc Phenikaa",
+    "sampleCount" : 100,
+    "errorCount" : 100,
+    "errorPct" : 100.0,
+    "meanResTime" : 7369.470000000002,
+    "medianResTime" : 10010.0,
+    "minResTime" : 57.0,
+    "maxResTime" : 10065.0,
+    "pct1ResTime" : 10026.0,
+    "pct2ResTime" : 10032.75,
+    "pct3ResTime" : 10064.72,
+    "throughput" : 4.331441937020834,
+    "receivedKBytesPerSec" : 7.270266072356738,
+    "sentKBytesPerSec" : 0.8154447037293715
+  }
+}
