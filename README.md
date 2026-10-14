@@ -14,8 +14,6 @@
 - **Môi trường thực nghiệm:**
   - Phiên bản công cụ: **Apache JMeter 5.6.3** (`D:\Do\CaiDat\JMeter\apache-jmeter-5.6.3\bin`)
   - Java Runtime: **Java OpenJDK 21 LTS (64-bit)**
-  - Hệ điều hành: **Windows 11 Home Single Language x64**
-  - CPU & RAM: Multi-core, 16GB RAM
 
 ---
 
