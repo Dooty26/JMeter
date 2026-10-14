@@ -81,6 +81,9 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 ![Báo cáo Dashboard HTML Web Phenikaa](images/04_web_phenikaa_html_dashboard.png)
 *Hình 1: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải Website Trường Đại học Phenikaa.*
 
+![Biểu đồ Response Times Over Time Web Phenikaa](images/08_web_phenikaa_response_times_chart.png)
+*Hình 2: Ảnh chụp thực tế biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của Web Phenikaa.*
+
 #### 🔍 Nhận xét Kịch bản 1:
 1. **Tỷ lệ lỗi cao (85.00%):** Do máy chủ Phenikaa có hệ thống tường lửa ứng dụng web (WAF) và chính sách giới hạn tần suất (Rate Limiting) để chống tấn công DDoS. Khi 100 threads đồng thời tạo kết nối liên tục trong 10s, các kết nối sau vượt quá ngưỡng cho phép và bị ngắt kết nối (Connection Reset) hoặc hết thời gian chờ (Socket Timeout 10000ms).
 2. **Thời gian đáp ứng cao:** Thời gian phản hồi trung bình lên tới **8,158.05 ms (~8.16 giây)**, chưa đáp ứng tiêu chuẩn trải nghiệm người dùng web thông thường (< 3 giây).
@@ -100,16 +103,16 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **TỔNG CỘNG (TOTAL)** | **4,496** | **368.21** | **240.0** | **774.0** | **1,115.3** | **1,757.0** | **10** | **1,994** | **56.45%** | **208.17 /s** | **2,960.79** |
 
 ![Dashboard tổng quan VnExpress 500 Users](images/01_vnexpress_html_dashboard.png)
-*Hình 2: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải cao 500 Users trên VnExpress (Apdex Score & Request Summary).*
+*Hình 3: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải cao 500 Users trên VnExpress (Apdex Score & Request Summary).*
 
 ![Bảng thống kê chi tiết Statistics Table VnExpress](images/02_vnexpress_statistics_table.png)
-*Hình 3: Ảnh chụp thực tế bảng thống kê chi tiết (Statistics Table) từ báo cáo HTML JMeter với 4,496 requests thực tế.*
+*Hình 4: Ảnh chụp thực tế bảng thống kê chi tiết (Statistics Table) từ báo cáo HTML JMeter với 4,496 requests thực tế.*
 
 ![Biểu đồ Response Times Over Time VnExpress](images/05_vnexpress_response_times_chart.png)
-*Hình 4: Ảnh chụp thực tế biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của VnExpress.*
+*Hình 5: Ảnh chụp thực tế biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của VnExpress.*
 
 ![Biểu đồ Throughput Hits per Second VnExpress](images/06_vnexpress_throughput_chart.png)
-*Hình 5: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của VnExpress.*
+*Hình 6: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của VnExpress.*
 
 #### 🔍 Nhận xét Kịch bản 2:
 1. **Thông lượng xử lý cực lớn (High Throughput):** Đạt tới **208.17 requests/second** và lưu lượng mạng tiếp nhận đạt **2,960.79 KB/sec (~3 MB/giây)**, minh chứng cho năng lực phần cứng và băng thông mạng khổng lồ của VnExpress.
@@ -133,10 +136,13 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **TỔNG CỘNG API (TOTAL)** | **1,200** | **196.98** | **165.0** | **221.8** | **464.9** | **804.9** | **145** | **1,172** | **0.00%** | **29.85 /s** | **162.72** |
 
 ![Báo cáo Dashboard HTML REST API](images/03_api_html_dashboard.png)
-*Hình 6: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải và áp lực hệ thống REST API.*
+*Hình 7: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải và áp lực hệ thống REST API.*
 
 ![Biểu đồ Response Times Over Time REST API](images/07_api_response_times_chart.png)
-*Hình 7: Ảnh chụp thực tế biểu đồ Response Times Over Time của hệ thống REST API từ Apache JMeter.*
+*Hình 8: Ảnh chụp thực tế biểu đồ Response Times Over Time của hệ thống REST API từ Apache JMeter.*
+
+![Biểu đồ Throughput Hits per Second REST API](images/09_api_throughput_chart.png)
+*Hình 9: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của hệ thống REST API.*
 
 #### 🔍 Nhận xét Kịch bản 3 & 4:
 1. **Độ ổn định tuyệt đối (Error % = 0.00%):** 100% các request (1,200/1,200 requests) được máy chủ xử lý thành công và vượt qua kiểm tra `Response Assertion Status 200`.
@@ -188,14 +194,16 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 ### 6.1. Cấu trúc thư mục dự án
 ```text
 Lab8_JMeter/
-├── images/                                 # Chứa toàn bộ 7 ảnh chụp màn hình thực tế từ JMeter
+├── images/                                 # Chứa toàn bộ 9 ảnh chụp màn hình thực tế từ JMeter
 │   ├── 01_vnexpress_html_dashboard.png     # Dashboard HTML thực tế VnExpress 500 users
 │   ├── 02_vnexpress_statistics_table.png   # Bảng Statistics chi tiết thực tế VnExpress
 │   ├── 03_api_html_dashboard.png           # Dashboard HTML thực tế REST API ReqRes
 │   ├── 04_web_phenikaa_html_dashboard.png  # Dashboard HTML thực tế Web Phenikaa
 │   ├── 05_vnexpress_response_times_chart.png # Đồ thị Response Times Over Time VnExpress
 │   ├── 06_vnexpress_throughput_chart.png   # Đồ thị Throughput Hits/s VnExpress
-│   └── 07_api_response_times_chart.png     # Đồ thị Response Times Over Time REST API
+│   ├── 07_api_response_times_chart.png     # Đồ thị Response Times Over Time REST API
+│   ├── 08_web_phenikaa_response_times_chart.png # Đồ thị Response Times Over Time Web Phenikaa
+│   └── 09_api_throughput_chart.png        # Đồ thị Throughput Hits/s REST API
 ├── Web_Performance_Test_Phenikaa.jmx       # Test Plan kiểm thử Web Phenikaa (100 Users)
 ├── Web_Performance_Test_VnExpress.jmx      # Test Plan kiểm thử Web VnExpress (500 Users)
 ├── API_Performance_Stress_Test.jmx         # Test Plan kiểm thử REST API (Load & Stress)
