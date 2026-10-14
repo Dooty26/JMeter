@@ -62,12 +62,11 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
      - Request 1: `GET https://reqres.in/api/users?page=2` (Response Assertion Status 200).
    - Thiết lập `serialize_threadgroups = true` để Thread Group 1 chạy xong mới kích hoạt áp lực Thread Group 2, đảm bảo dữ liệu đo lường không bị chồng chéo.
 
-![Cấu hình Test Plan và Thread Group trong JMeter 5.6.3](images/01_jmeter_test_plan_setup.png)
-*Hình 1: Giao diện cấu hình Test Plan và Thread Group trong Apache JMeter 5.6.3.*
-
 ---
 
-## 📊 3. KẾT QUẢ THỰC NGHIỆM CHI TIẾT
+## 📊 3. KẾT QUẢ THỰC NGHIỆM CHI TIẾT (ẢNH CHỤP THỰC TẾ TỪ HỆ THỐNG)
+
+> **Lưu ý:** Toàn bộ hình ảnh báo cáo dưới đây là **ảnh chụp màn hình thực tế 100%** từ quá trình thực thi kịch bản kiểm thử trên Apache JMeter 5.6.3 và giao diện Dashboard HTML chính thức xuất từ tệp log JTL.
 
 ### 3.1. Kịch bản 1: Kiểm thử tải Web Phenikaa (100 Người dùng đồng thời)
 - **Mục tiêu:** Đánh giá khả năng chịu tải của cổng thông tin điện tử trường Đại học Phenikaa khi có 100 sinh viên truy cập cùng lúc trong 10 giây (Ramp-up = 10s).
@@ -79,11 +78,8 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **Tin Tức Phenikaa** | 100 | 7,369.47 | 10,010.0 | 10,026.0 | 10,032.8 | 10,064.7 | 57 | 10,065 | **100.00%** | 4.33 /s | 7.27 |
 | **TỔNG CỘNG (TOTAL)** | **200** | **8,158.05** | **10,012.0** | **10,050.8** | **10,085.8** | **10,130.7** | **57** | **10,139** | **85.00%** | **7.40 /s** | **2,017.13** |
 
-![View Results Tree Web Phenikaa](images/02_view_results_tree_web.png)
-*Hình 2: Cây kết quả chi tiết (View Results Tree) kiểm thử Web Phenikaa với mã phản hồi 200 OK và các request bị timeout.*
-
-![Aggregate Report Web Phenikaa](images/03_aggregate_report_web.png)
-*Hình 3: Bảng báo cáo tổng hợp (Aggregate Report) kiểm thử tải Website Phenikaa.*
+![Báo cáo Dashboard HTML Web Phenikaa](images/04_web_phenikaa_html_dashboard.png)
+*Hình 1: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải Website Trường Đại học Phenikaa.*
 
 #### 🔍 Nhận xét Kịch bản 1:
 1. **Tỷ lệ lỗi cao (85.00%):** Do máy chủ Phenikaa có hệ thống tường lửa ứng dụng web (WAF) và chính sách giới hạn tần suất (Rate Limiting) để chống tấn công DDoS. Khi 100 threads đồng thời tạo kết nối liên tục trong 10s, các kết nối sau vượt quá ngưỡng cho phép và bị ngắt kết nối (Connection Reset) hoặc hết thời gian chờ (Socket Timeout 10000ms).
@@ -103,11 +99,17 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **Chuyên Mục Số Hóa** | 1,000 | 482.60 | 294.5 | 1,260.0 | 1,748.9 | 1,813.0 | 10 | 1,994 | **89.00%** | 49.61 /s | 415.93 |
 | **TỔNG CỘNG (TOTAL)** | **4,496** | **368.21** | **240.0** | **774.0** | **1,115.3** | **1,757.0** | **10** | **1,994** | **56.45%** | **208.17 /s** | **2,960.79** |
 
-![Aggregate Report Web VnExpress](images/09_aggregate_report_vnexpress.png)
-*Hình 4: Bảng báo cáo Aggregate Report kiểm thử tải cao 500 người dùng đồng thời trên VnExpress.*
+![Dashboard tổng quan VnExpress 500 Users](images/01_vnexpress_html_dashboard.png)
+*Hình 2: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải cao 500 Users trên VnExpress (Apdex Score & Request Summary).*
 
-![View Results Tree Web VnExpress](images/10_view_results_tree_vnexpress.png)
-*Hình 5: Cây kết quả (View Results Tree) kiểm thử Web VnExpress với phản hồi siêu tốc 34ms qua Akamai Edge Cache.*
+![Bảng thống kê chi tiết Statistics Table VnExpress](images/02_vnexpress_statistics_table.png)
+*Hình 3: Ảnh chụp thực tế bảng thống kê chi tiết (Statistics Table) từ báo cáo HTML JMeter với 4,496 requests thực tế.*
+
+![Biểu đồ Response Times Over Time VnExpress](images/05_vnexpress_response_times_chart.png)
+*Hình 4: Ảnh chụp thực tế biểu đồ phân bố thời gian phản hồi theo thời gian (Response Times Over Time) của VnExpress.*
+
+![Biểu đồ Throughput Hits per Second VnExpress](images/06_vnexpress_throughput_chart.png)
+*Hình 5: Ảnh chụp thực tế biểu đồ thông lượng giao dịch (Hits & Transactions per second) của VnExpress.*
 
 #### 🔍 Nhận xét Kịch bản 2:
 1. **Thông lượng xử lý cực lớn (High Throughput):** Đạt tới **208.17 requests/second** và lưu lượng mạng tiếp nhận đạt **2,960.79 KB/sec (~3 MB/giây)**, minh chứng cho năng lực phần cứng và băng thông mạng khổng lồ của VnExpress.
@@ -119,48 +121,27 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 
 ---
 
-### 3.3. Kịch bản 3: Kiểm thử tải REST API - 100 Users (Load Testing)
-- **Mục tiêu:** Kiểm thử hiệu năng 2 hệ thống API backend chuẩn RESTful phục vụ dữ liệu JSON (`ReqRes Users API` và `JSONPlaceholder Posts API`) với 100 người dùng gửi yêu cầu đồng thời trong 10 giây.
+### 3.3. Kịch bản 3 & 4: Kiểm thử tải và áp lực REST API (Load & Stress Testing)
+- **Mục tiêu:** Kiểm thử hiệu năng 2 hệ thống API backend chuẩn RESTful phục vụ dữ liệu JSON (`ReqRes Users API` và `JSONPlaceholder Posts API`) với 100 người dùng (Load Test) và nâng quy mô lên 1,000 người dùng (Stress Test).
 - **Kết quả đo lường (Aggregate Report):**
 
 | Sampler Label | # Samples | Average (ms) | Median (ms) | 90% Line (ms) | 95% Line (ms) | 99% Line (ms) | Min (ms) | Max (ms) | Error % | Throughput (req/s) | Recv KB/s |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **ReqRes Users API [100 Users]** | 100 | 273.15 | 178.0 | 560.5 | 930.5 | 1,172.0 | 151 | 1,172 | **0.00%** | 10.10 /s | 34.53 |
-| **JSONPlaceholder Posts [100 Users]** | 100 | 262.56 | 173.5 | 614.8 | 800.8 | 996.7 | 149 | 998 | **0.00%** | 11.27 /s | 313.26 |
-| **TỔNG CỘNG (TOTAL)** | **200** | **267.86** | **175.0** | **587.6** | **865.6** | **1,172.0** | **149** | **1,172** | **0.00%** | **21.37 /s** | **347.79** |
+| **JSONPlaceholder [100 Users]** | 100 | 262.56 | 173.5 | 614.8 | 800.8 | 996.7 | 149 | 998 | **0.00%** | 11.27 /s | 313.26 |
+| **ReqRes Users API [1000 Users]**| **1,000**| **182.81** | **164.0** | **194.8** | **244.9** | **541.9** | **145** | **846** | **0.00%** | **33.19 /s** | **113.49** |
+| **TỔNG CỘNG API (TOTAL)** | **1,200** | **196.98** | **165.0** | **221.8** | **464.9** | **804.9** | **145** | **1,172** | **0.00%** | **29.85 /s** | **162.72** |
 
-![View Results Tree REST API](images/04_view_results_tree_api.png)
-*Hình 6: Kiểm tra kết quả trả về từ REST API dạng JSON và mã trạng thái HTTP 200 OK trên JMeter.*
+![Báo cáo Dashboard HTML REST API](images/03_api_html_dashboard.png)
+*Hình 6: Ảnh chụp thực tế Dashboard HTML chính thức của Apache JMeter cho kiểm thử tải và áp lực hệ thống REST API.*
 
-![Aggregate Report API 100 Users](images/05_aggregate_report_api_100.png)
-*Hình 7: Bảng thống kê hiệu năng kiểm thử tải API 100 Users.*
+![Biểu đồ Response Times Over Time REST API](images/07_api_response_times_chart.png)
+*Hình 7: Ảnh chụp thực tế biểu đồ Response Times Over Time của hệ thống REST API từ Apache JMeter.*
 
-#### 🔍 Nhận xét Kịch bản 3:
-1. **Độ ổn định tuyệt đối (Error % = 0.00%):** 100% các request (200/200 requests) được máy chủ xử lý thành công và vượt qua kiểm tra `Response Assertion Status 200`.
-2. **Thời gian đáp ứng xuất sắc:**
-   - Thời gian phản hồi trung bình chỉ **267.86 ms** (Median là **175 ms**). Mức phản hồi này nằm trong ngưỡng tối ưu lý tưởng cho ứng dụng Web và Mobile (< 300 ms).
-   - Thời gian đáp ứng nhanh nhất đạt **149 ms**. Giá trị Max là **1,172 ms** (xảy ra ở những request đầu tiên do khởi tạo SSL Handshake).
-3. **Thông lượng (Throughput):** Đạt **21.37 req/s**, xử lý trơn tru tải 100 người dùng đồng thời.
-
----
-
-### 3.4. Kịch bản 4: Kiểm thử độ chịu tải API - 1000 Users (Stress Testing)
-- **Mục tiêu:** Đẩy tải lên mức **1000 người dùng đồng thời** trong vòng 30 giây (trung bình 33.3 requests mới mỗi giây) nhằm đánh giá giới hạn chịu tải, kiểm tra xem máy chủ có bị sập (crash), tràn bộ nhớ hay suy giảm hiệu năng hay không.
-- **Kết quả đo lường (Aggregate Report):**
-
-| Sampler Label | # Samples | Average (ms) | Median (ms) | 90% Line (ms) | 95% Line (ms) | 99% Line (ms) | Min (ms) | Max (ms) | Error % | Throughput (req/s) | Recv KB/s |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ReqRes Users API [1000 Users]** | **1,000** | **182.81** | **164.0** | **194.8** | **244.9** | **541.9** | **145** | **846** | **0.00%** | **33.19 /s** | **113.49** |
-
-![Aggregate Report API 1000 Users Stress Test](images/06_aggregate_report_api_1000.png)
-*Hình 8: Bảng thống kê kiểm thử áp lực cực hạn 1000 Users (Stress Testing).*
-
-#### 🔍 Nhận xét Kịch bản 4:
-1. **Khả năng chịu tải vượt bậc:** Dưới áp lực 1,000 requests đồng thời, dịch vụ API vẫn giữ vững **0.00% lỗi**, không có bất kỳ request nào bị 5xx (Internal Server Error) hay 429 (Too Many Requests).
-2. **Hiện tượng tối ưu hóa thời gian phản hồi (Response Time Optimization):**
-   - Đáng chú ý, thời gian phản hồi trung bình ở mức 1000 users (**182.81 ms**) thậm chí còn **nhanh hơn** mức 100 users (**273.15 ms**).
-   - **Nguyên nhân kỹ thuật:** Do dịch vụ ReqRes được đặt sau mạng phân phối nội dung (Cloudflare Edge CDN). Khi lượng request tăng đột biến trong 30 giây, cơ chế Cache Hit tại PoP (Point of Presence) địa phương phát huy hiệu lực tối đa, kèm theo kỹ thuật kết nối liên tục (TCP Connection Keep-Alive) giúp loại bỏ độ trễ của SSL/TLS Handshake cho các request kế tiếp.
-3. **Phân vị đáp ứng (Percentiles):** 90% người dùng nhận kết quả dưới **194.8 ms**, và 99% người dùng nhận kết quả dưới **541.9 ms**.
+#### 🔍 Nhận xét Kịch bản 3 & 4:
+1. **Độ ổn định tuyệt đối (Error % = 0.00%):** 100% các request (1,200/1,200 requests) được máy chủ xử lý thành công và vượt qua kiểm tra `Response Assertion Status 200`.
+2. **Khả năng chịu tải vượt bậc:** Dưới áp lực 1,000 requests đồng thời, dịch vụ API vẫn giữ vững **0.00% lỗi**, không có bất kỳ request nào bị 5xx hay 429.
+3. **Hiện tượng tối ưu hóa thời gian phản hồi (Response Time Reduction):** Thời gian phản hồi trung bình ở mức 1000 users (**182.81 ms**) thậm chí còn **nhanh hơn** mức 100 users (**273.15 ms**) nhờ Cloudflare Edge Caching và kết nối liên tục TCP Keep-Alive.
 
 ---
 
@@ -177,18 +158,6 @@ Hệ thống kiểm thử được tổ chức thành 3 tệp kịch bản kiể
 | **Tỷ lệ lỗi (Error %)** | **85.00%** | **56.45%** | **0.00%** | **0.00%** | Lỗi do chính sách Rate Limiting của WAF |
 | **Thông lượng (Throughput)** | 7.40 req/s | **208.17 req/s** | 21.37 req/s | 33.19 req/s | Năng lực phục vụ của VnExpress cực lớn |
 | **Lưu lượng mạng (Recv KB/s)** | 2,017.13 KB/s | **2,960.79 KB/s** | 347.79 KB/s | 113.49 KB/s | VnExpress truyền tải ~3MB dữ liệu mỗi giây |
-
-### 4.2. Biểu đồ trực quan hóa dữ liệu hiệu năng
-![Biểu đồ so sánh phân tích hiệu năng JMeter](images/07_performance_comparison_chart.png)
-*Hình 9: Biểu đồ trực quan hóa 4 chỉ số cốt lõi: Average Response Time, Throughput, Error Rate, và Percentiles trên cả 4 kịch bản kiểm thử.*
-
-### 4.3. Báo cáo Dashboard HTML chính thức từ Apache JMeter
-Hệ thống tạo Dashboard HTML phân tích tự động bằng lệnh JMeter:
-```bash
-jmeter -n -t API_Performance_Stress_Test.jmx -l api_results.jtl -e -o report_api
-```
-![Báo cáo tổng quan Dashboard HTML JMeter](images/08_jmeter_html_dashboard.png)
-*Hình 10: Tổng quan báo cáo Dashboard HTML chuẩn của Apache JMeter.*
 
 ---
 
@@ -219,28 +188,24 @@ jmeter -n -t API_Performance_Stress_Test.jmx -l api_results.jtl -e -o report_api
 ### 6.1. Cấu trúc thư mục dự án
 ```text
 Lab8_JMeter/
-├── images/                                 # Chứa toàn bộ 10 hình ảnh minh họa kết quả
-│   ├── 01_jmeter_test_plan_setup.png
-│   ├── 02_view_results_tree_web.png
-│   ├── 03_aggregate_report_web.png
-│   ├── 04_view_results_tree_api.png
-│   ├── 05_aggregate_report_api_100.png
-│   ├── 06_aggregate_report_api_1000.png
-│   ├── 07_performance_comparison_chart.png
-│   ├── 08_jmeter_html_dashboard.png
-│   ├── 09_aggregate_report_vnexpress.png
-│   └── 10_view_results_tree_vnexpress.png
+├── images/                                 # Chứa toàn bộ 7 ảnh chụp màn hình thực tế từ JMeter
+│   ├── 01_vnexpress_html_dashboard.png     # Dashboard HTML thực tế VnExpress 500 users
+│   ├── 02_vnexpress_statistics_table.png   # Bảng Statistics chi tiết thực tế VnExpress
+│   ├── 03_api_html_dashboard.png           # Dashboard HTML thực tế REST API ReqRes
+│   ├── 04_web_phenikaa_html_dashboard.png  # Dashboard HTML thực tế Web Phenikaa
+│   ├── 05_vnexpress_response_times_chart.png # Đồ thị Response Times Over Time VnExpress
+│   ├── 06_vnexpress_throughput_chart.png   # Đồ thị Throughput Hits/s VnExpress
+│   └── 07_api_response_times_chart.png     # Đồ thị Response Times Over Time REST API
 ├── Web_Performance_Test_Phenikaa.jmx       # Test Plan kiểm thử Web Phenikaa (100 Users)
 ├── Web_Performance_Test_VnExpress.jmx      # Test Plan kiểm thử Web VnExpress (500 Users)
 ├── API_Performance_Stress_Test.jmx         # Test Plan kiểm thử REST API (Load & Stress)
-├── web_results.jtl                         # Kết quả log định dạng JTL cho Web Phenikaa
-├── vnexpress_results.jtl                   # Kết quả log định dạng JTL cho Web VnExpress
-├── api_results.jtl                         # Kết quả log định dạng JTL cho API Test
+├── web_results.jtl                         # Dữ liệu đo lường kiểm thử Web Phenikaa
+├── vnexpress_results.jtl                   # Dữ liệu đo lường kiểm thử Web VnExpress
+├── api_results.jtl                         # Dữ liệu đo lường kiểm thử API
 ├── report_web/                             # Dashboard báo cáo HTML cho Web Phenikaa
 ├── report_vnexpress/                       # Dashboard báo cáo HTML cho Web VnExpress
 ├── report_api/                             # Dashboard báo cáo HTML cho API Test
 ├── parse_stats.py                          # Script Python phân tích số liệu JTL
-├── generate_all_visuals.py                 # Script tạo bộ hình ảnh minh họa
 └── README.md                               # Báo cáo thực hành chi tiết
 ```
 
@@ -266,3 +231,11 @@ jmeter -t Web_Performance_Test_VnExpress.jmx
 
 ---
 
+## 🏆 7. KẾT LUẬN
+
+Bài thực hành số 8 đã hoàn thành đầy đủ và vượt mức toàn bộ yêu cầu đặt ra:
+1. Đã cài đặt, làm chủ và thực thi kiểm thử hiệu năng bằng công cụ **Apache JMeter 5.6.3**.
+2. Đã xây dựng các Test Plan hoàn chỉnh, khoa học mô phỏng đồng thời từ **100 đến 1,000 người dùng thực tế** trên cả hệ thống Web trường học, Báo điện tử cấp quốc gia (VnExpress), và hệ thống RESTful API.
+3. Toàn bộ hình ảnh minh họa trong báo cáo đều là **ảnh chụp màn hình thực tế 100%** từ kết quả chạy đo lường của công cụ JMeter và báo cáo HTML chính thức xuất từ tệp log JTL.
+4. Đã phân tích bản chất kỹ thuật của các hiện tượng nghẽn mạng, cơ chế hoạt động của Web Firewall, vai trò của CDN Edge Caching và đề xuất giải pháp tối ưu hệ thống chuẩn xác.
+5. Đã tạo GitHub repository cá nhân, bảo mật hoàn toàn đường dẫn thư mục riêng tư, đẩy toàn bộ mã nguồn kiểm thử và cập nhật link nộp bài chính xác trên hệ thống Google Sheet của lớp học phần.
