@@ -43,3 +43,4 @@ if __name__ == '__main__':
     analyze('web_results.jtl')
     analyze('api_load_100.jtl')
     analyze('api_stress_1000.jtl')
+    analyze('vnexpress_results.jtl')
